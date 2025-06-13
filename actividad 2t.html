@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+#contenedor {
+	background-color: #333;
+	position: absolute;
+	height: 444px;
+	width: 900px;
+	left: 100px;
+}
+#titulo {
+	background-color: #999;
+	position: absolute;
+	height: 125px;
+	width: 867px;
+	left: 17px;
+	top: 16px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+#menu {
+	background-color: #999;
+	position: absolute;
+	height: 277px;
+	width: 314px;
+	left: 14px;
+	top: 165px;
+}
+#información {
+	background-color: #999;
+	position: absolute;
+	height: 232px;
+	width: 510px;
+	left: 346px;
+	top: 0px;
+}
+.autoexpress {	text-align: center;
+}
+.autoexpress {	font-size: 90px;
+	font-style: italic;
+}
+</style>
+<script type="text/javascript">
+function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+  var selObj = null;  with (document) { 
+  if (getElementById) selObj = getElementById(objId);
+  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0; }
+}
+</script>
+</head>
+
+<body>
+<div id="contenedor">
+  <div id="titulo"><span class="autoexpress">-autoexpress
+  -</span></div>
+  <div id="menu">
+    <div id="información">
+      <p>Si desea saber más sobre nuestro negocio o nuestra información de contacto seleccione la pantalla adecuada en el menu para hacer visible la información: </p>
+      <p>Nuestra empresa tiene autos que cumplen muy bien con la ley   calidad-precio, somos una de empresa de renta bastante confiable ademas de poner siempre la felicidad de nuestros clientes tomando en cuenta cada uno de sus deseos para que puedan encontran su vehículo ideal.</p>
+    </div>
+    <p>Puedes ver nuestra variedad de autos o nuestra información de contacto eligiendo una de las opciónes de nuestro menú: </p>
+    <ul>
+      <li><a href="../../actividad 2a.html">Inicio</a></li>
+      <li><a href="../../actividad 2r.html">Información de contacto</a></li>
+      <li><a href="../../actividad 2t.html">Sobre nosotros</a></li>
+      <li><a href="../../actividad 2.html">Autos disponibles</a></li>
+      <li id="flecha">servicios
+        <select name="jumpMenu" id="jumpMenu">
+          <option value="actividad 2a.html">✅</option>
+          <option value="../actividad 3.html">montallantas</option>
+          <option value="../actividad 3t.html">mantenimiento</option>
+          <option value="../actividad 3 a.html">aliniación</option>
+          <option value="actividad 3 e.html">balance</option>
+        </select>
+        <form name="form" id="form">
+          <input type="button" name="go_button" id= "go_button" value="Ir" onclick="MM_jumpMenuGo('jumpMenu','parent',1)" />
+        </form>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
